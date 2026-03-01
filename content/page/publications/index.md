@@ -5,7 +5,7 @@ layout: "publications"
 slug: "publications"
 menu:
     main:
-        weight: 2
+        weight: 1
         params: 
-            icon: publications
+            icon: pub2
 ---

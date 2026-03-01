@@ -8,17 +8,26 @@
 #newtab = true
 
 [[social]]
-    identifier = "github"
-    name       = "GitHub"
-    url        = "https://github.com/adirmorgan"
-
-    [social.params]
-        icon = "brand-github"
-
-[[social]]
     identifier = "linkedin"
     name       = "LinkedIn"
     url        = "https://www.linkedin.com/in/adir-morgan"
 
     [social.params]
         icon = "linkedin"
+
+
+[[social]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/adirmorgan"
+
+    [social.params]
+        icon = "github"
+
+[[social]]
+    identifier = "scholar"
+    name       = "Scholar"
+    url        = "https://scholar.google.co.il/citations?user=qjv-FMoAAAAJ&hl=iw"
+
+    [social.params]
+        icon = "google-scholar"
