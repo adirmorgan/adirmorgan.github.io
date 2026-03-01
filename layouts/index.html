@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+    {{/* Homepage intro content from content/_index.md */}}
+    {{ with .Content }}
+        <section class="home-intro">
+            {{ . }}
+        </section>
+    {{ end }}
+
+    {{/* Default Stack post list logic */}}
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $paginator := .Paginate $pages }}
+
+    <section class="article-list">
+        {{ range $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{ partial "pagination.html" . }}
+    {{ partial "footer/footer" . }}
+{{ end }}

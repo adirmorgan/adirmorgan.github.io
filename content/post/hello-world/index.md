@@ -2,12 +2,12 @@
 title: My First Post
 description: Welcome to Hugo Theme Stack
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
+date: 2022-03-06 
 image: cover.jpg
-categories:
-    - Example Category
-tags:
-    - Example Tag
+# categories:
+#     - Example Category
+# tags:
+#     - Example Tag
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
