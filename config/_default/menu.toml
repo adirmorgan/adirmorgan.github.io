@@ -15,10 +15,10 @@
     [social.params]
         icon = "brand-github"
 
-# [[social]]
-#     identifier = "linkedin"
-#     name       = "LinkedIn"
-#     url        = "www.linkedin.com/in/adir-morgan"
+[[social]]
+    identifier = "linkedin"
+    name       = "LinkedIn"
+    url        = "https://www.linkedin.com/in/adir-morgan"
 
-#     [social.params]
-#         icon = "brand-Linkedin"
+    [social.params]
+        icon = "linkedin"
