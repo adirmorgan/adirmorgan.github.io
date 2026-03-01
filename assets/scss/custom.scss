@@ -1,3 +1,17 @@
 /*
     You can add your own custom styles here.
 */
+
+
+/* Make sidebar avatar larger (Stack uses a CSS variable for this) */
+.left-sidebar,
+.left-sidebar.compact {
+  --sidebar-avatar-size: 180px; /* try 160px–220px */
+}
+
+/* Safety: force the image to match the variable */
+.left-sidebar .site-avatar img {
+  width: var(--sidebar-avatar-size);
+  height: var(--sidebar-avatar-size);
+  object-fit: cover;
+}
