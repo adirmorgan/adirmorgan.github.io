@@ -1,5 +1,4 @@
 {{ define "main" }}
-
     {{/* Homepage intro content from content/_index.md */}}
     {{ with .Content }}
         <section class="home-intro">
@@ -10,7 +9,8 @@
     {{/* Default Stack post list logic */}}
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $paginator := .Paginate $pages }}
-
+    
+    <h2 class="section-title">Recent Updates</h2>
     <section class="article-list">
         {{ range $paginator.Pages }}
             {{ partial "article-list/default" . }}

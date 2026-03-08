@@ -31,3 +31,10 @@
 
     [social.params]
         icon = "google-scholar"
+
+[[social]]
+    identifier = "mail"
+    name       = "mail"
+    url        = "mailto:samorgan@campus.technion.ac.il"
+    [social.params]
+        icon = "envelope"
