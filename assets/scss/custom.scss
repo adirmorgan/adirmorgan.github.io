@@ -30,13 +30,18 @@ body {
 /* Add space between paragraphs */
 .home-intro p {
     margin-bottom: 1rem;
-    line-height: 1.9;
-    font-size: 1.65rem;
+    line-height: 1.2;
+    font-size: 1.6rem;
 }
 
 /* Slightly reduce text width for better readability */
 .home-intro .article-content {
     max-width: 720px;
+}
+
+.article-list .article-title {
+    font-size: 1.75rem;   
+    line-height: 1.4;
 }
 
 

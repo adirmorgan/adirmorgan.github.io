@@ -20,12 +20,12 @@ SortBy              = "default"
 [sidebar]
     # emoji    = "🍥"
     subtitle = ""
-    avatar   = "img/profile2.png"
+    avatar   = "img/profile4.jpg"
 
 [article]
     headingAnchor = false
     math          = false
-    readingTime   = true
+    readingTime   = false
 
     [article.license]
         enabled = false
